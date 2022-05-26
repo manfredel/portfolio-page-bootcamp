@@ -1,7 +1,72 @@
 * {
-  box-sizing: 0;
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode";
 }
 
 body {
   background-color: white;
+}
+
+.nav {
+  background-color: white;
+  position: fixed;
+  width: 100%;
+}
+
+.nav a {
+  font-size: 15px;
+  float: left;
+  text-align: center;
+  text-decoration: none;
+  color: rgb(75, 1, 75);
+  padding: 1.12em 1em;
+  max-height: 3.45em;
+  vertical-align: middle;
+}
+
+#nav-logo {
+  width: 20px;
+  padding: 0;
+}
+
+.hover:hover {
+  background-color: rgb(237, 237, 237);
+}
+
+.img-page {
+  border: 1px solid black;
+  background-image: url("../portfolio-page-bootcamp/image/front-image.jpg");
+  background-position: left center;
+  background-size: cover;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.3);
+  height: 50em;
+  width: 100%;
+}
+
+#home .img-page h1 {
+  color: white;
+  position: relative;
+  font-size: 80px;
+  top: 30%;
+  width: 9em;
+  text-align: left;
+  padding-left: 8%;
+}
+
+.page {
+  border: 1px solid black;
+  background-color: rgb(243, 252, 255);
+  height: 50em;
+  width: 100%;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 50px;
+}
+
+p {
+  padding: 2em 0 0 8%;
 }
